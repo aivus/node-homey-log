@@ -2,7 +2,7 @@ name: Deploy
 
 # About this workflow:
 # It is triggered on push events to branches production and testing. Then it performs a checkout of the current repo
-# and sets up a node environment (v12). Following, it will run `npm ci` to build the package. Next, it will look at your
+# and sets up a node environment (v18). Following, it will run `npm ci` to build the package. Next, it will look at your
 # commit message, if it includes '#patch', '#minor', or '#major' it will bump the package version accordingly.
 # Finally, the `npm publish` command will be run, when on branch testing it will run `npm publish --tag beta` to publish
 # it under the beta flag on npm. Note: if no '#patch', '#minor', or '#major' flag is present in the latest commit
