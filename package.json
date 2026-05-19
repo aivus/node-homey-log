@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/athombv/node-homey-log#readme",
   "dependencies": {
-    "@sentry/node": "^10.0.0"
+    "@sentry/node-core": "^10.0.0"
   },
   "devDependencies": {
     "@athombv/jsdoc-template": "^1.7.0",
